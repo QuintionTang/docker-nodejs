@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
-    "debug": "nodemon --trace-warnings --inspect=0.0.0.0:9229 ./index.js"
+    "debug": "nodemon --trace-warnings --inspect=0.0.0.0:9229 ./index.js",
+    "client": "nodemon --trace-warnings --inspect=0.0.0.0:9229 ./client.js"
   },
   "author": "Quintion <QuintionTang@gmail.com>",
   "license": "MIT",
